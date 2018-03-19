@@ -23,6 +23,7 @@
 * Do not make any change to our root project repository.
 * Deploy your web page to Gitlab page, and ensure it works correctly.
     * **Your main page should be named as ```index.html```**
+    * **URL should be : https://[studentID].gitlab.io/AS_01_WebCanvas**
 * You should also upload all source code to iLMS.
     * .html or .htm, .css, .js, etc.
     * source files

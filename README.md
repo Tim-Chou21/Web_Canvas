@@ -12,7 +12,7 @@
 
 ## Scoring (Check detailed requirments via iLMS)
 
-|                       Item                   | Score |
+|                       **Item**                   | **Score** |
 |:--------------------------------------------:|:-----:|
 |               Basic components               |  60%  |
 |                 Advance tools                |  35%  |
@@ -22,7 +22,7 @@
 ## Reminder
 * Do not make any change to our root project repository.
 * Deploy your web page to Gitlab page, and ensure it works correctly.
-    * **Your main page should be named as "index.html"**
+    * **Your main page should be named as ```index.html```**
 * You should also upload all source code to iLMS.
     * .html or .htm, .css, .js, etc.
     * source files

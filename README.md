@@ -1,7 +1,8 @@
 # Software Studio 2018 Spring AS01 Web Canvas
 
 ## Web Canvas
-    
+<img src="example01.png" width="400px" height="400px"></img>
+
 ## Todo
 1. **Fork this repo to your account, remove fork relationship and change project visibility to public.**
 1. Create your own web page with HTML5 canvas element that we can draw or editing on it.
@@ -11,12 +12,12 @@
 
 ## Scoring
 **Check detail requirments via iLMS [2018(Spring)_SS-Assignment_01. Web Canvas.pdf ]**
+<img src="scoring.PNG" width="500px" height="200px"></img>
 
-
-## Reminder
+* ## Reminder
     * Do not make any change to our root project repository.
-    * Deploy your web page to **Gitlab page**, and ensure it works correctly.
-        * Your main page should be named as **"index.html"**
+    * Deploy your web page to Gitlab page, and ensure it works correctly.
+        * Your main page should be named as "index.html"
     * You should also upload all source code to iLMS.
         * .html or .htm, .css, .js, etc.
         * source files

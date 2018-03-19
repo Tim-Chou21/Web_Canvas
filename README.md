@@ -11,7 +11,12 @@
 4. **Commit to "your" project repository and deploy to Gitlab page.**
 
 ## Scoring (Check detail requirments via iLMS)
-<img src="scoring.PNG" width="500px" height="200px"></img>
+|                     **Item**                    | **Score** |
+|:--------------------------------------------:|:-----:|
+|               Basic components               |  60%  |
+|                 Advance tools                |  35%  |
+|            Appearance (subjective)           |   5%  |
+| Other useful widgets (**describe on README.md**) | 1~10% |
 
 ## Reminder
 * Do not make any change to our root project repository.

@@ -10,7 +10,7 @@
 3. Design user interaction widgets and control tools for custom setting or editing (JavaScript).
 4. **Commit to "your" project repository and deploy to Gitlab page.**
 
-## Scoring (Check detail requirments via iLMS)
+## Scoring (Check detailed requirments via iLMS)
 |                     **Item**                    | **Score** |
 |:--------------------------------------------:|:-----:|
 |               Basic components               |  60%  |

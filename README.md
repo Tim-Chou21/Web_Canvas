@@ -11,6 +11,7 @@
 4. **Commit to "your" project repository and deploy to Gitlab page.**
 
 ## Scoring (Check detailed requirments via iLMS)
+
 |                     **Item**                    | **Score** |
 |:--------------------------------------------:|:-----:|
 |               Basic components               |  60%  |

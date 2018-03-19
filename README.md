@@ -12,7 +12,7 @@
 
 ## Scoring (Check detailed requirments via iLMS)
 
-|                     **Item**                    | **Score** |
+|                       Item                   | Score |
 |:--------------------------------------------:|:-----:|
 |               Basic components               |  60%  |
 |                 Advance tools                |  35%  |

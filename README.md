@@ -4,12 +4,12 @@
 <img src="example01.gif" width="700px" height="500px"></img>
 
 ## Todo
-1. **Fork this repo to your account, remove fork relationship and change project visibility to public.**
-1. Create your own web page with HTML5 canvas element that we can draw or editing on it.
-2. Beautify appearance by CSS.
-3. Design user interaction widgets and control tools for custom setting or editing (JavaScript).
-4. **Commit to "your" project repository and deploy to Gitlab page.**
-5. **Edit REABME.md in your project.(simple introduction of your canvas)**
+1. **Fork the repo ,remove fork relationship and change project visibility to public.**
+2. Create your own web page with HTML5 canvas element where we can draw somethings.
+3. Beautify appearance (CSS).
+4. Design user interaction widgets and control tools for custom setting or editing (JavaScript).
+5. **Commit to "your" project repository and deploy to Gitlab page.**
+6. **Describing the functions of your canvas in REABME.md**
 
 ## Scoring (Check detailed requirments via iLMS)
 

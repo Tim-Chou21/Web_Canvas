@@ -9,6 +9,7 @@
 2. Beautify appearance by CSS.
 3. Design user interaction widgets and control tools for custom setting or editing (JavaScript).
 4. **Commit to "your" project repository and deploy to Gitlab page.**
+5. **Edit REABME.md in your project.(simple introduction of your canvas)**
 
 ## Scoring (Check detailed requirments via iLMS)
 

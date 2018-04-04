@@ -1,0 +1,100 @@
+* {
+    font-family: Calibri;
+}
+
+body {
+    display: block;
+    background-color: #F5F6F7;
+    width: 100%;
+    margin-left: 125px;
+    margin-top: 50px;
+    
+}
+
+header {
+	display: inline-block;
+}
+
+canvas {
+    width:80%;
+    position: absolute;
+}
+
+p {
+    position: absolute;
+    width: 100%;
+    color: #92A4C6;
+    text-align: center;
+    margin: 0;
+    bottom: 0;
+}
+
+hr {
+    width: 65%;
+    float: left;
+    margin-left: 10px;
+    height: 2px;
+    background-color: black;
+    border: 0px;
+}
+
+span {
+    color: #92A4C6;
+    float: right;
+    padding-right: 10px;
+}
+.tool-box{
+    float: left;
+    height: 100px;
+    border-right: 1px solid #E2E3E4;
+    position: relative;
+}
+.setting-box, .color-box,.function-box{
+    float: left;
+    height: 100px;
+    border-right: 1px solid #E2E3E4;
+    position: relative;
+}
+.tool-box ul, .setting-box ul,.function-box ul{
+    padding: 0px 10px;
+	list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+.color-box ul{
+    padding: 0px;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+.tool-box ul li,.function-box ul li{
+	float: left;
+    display: block;
+    padding: 10px;
+}
+
+
+
+.color-box ul li{
+    float: left;
+    display: block;
+    padding: 4px;
+}
+
+.color-box ul li div{
+    height: 20px;
+    width: 20px;
+}
+
+
+#inputcolor{
+    margin: 12px 10px 0px 5px;
+    height: 48px;
+}
+
+#rangeThickness{
+    width: 150px;
+    margin: 12px 0px;
+}

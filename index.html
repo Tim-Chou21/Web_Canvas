@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<script src="assets/js/jquery-2.2.3.min.js"></script>
+<script src="assets/js/setting.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/shapes/Point.js"></script>
+<script src="assets/js/shapes/Shape.js"></script>
+<script src="assets/js/shapes/basic/Line.js"></script>
+<script src="assets/js/shapes/basic/Rectangle.js"></script>
+<script src="assets/js/shapes/basic/Equilateral.js"></script>
+<script src="assets/js/shapes/basic/Ellipse.js"></script>
+<script src="assets/js/shapes/basic/Polygon.js"></script>
+<script src="assets/js/shapes/basic/Pentagon.js"></script>
+<script src="assets/js/shapes/basic/Curve.js"></script>
+
+<body onload="init()" background  = "assets/img/tools/bgimage.png">
+    
+  <header>
+    <!-- Tools -->
+    <div class="tool-box">
+      <ul>
+        <li><input id="pencil" onclick="chooseTool(this.id)" type="image" alt="" src="assets/img/tools/pencil2.png" width="30"height="50"></li>
+        <li><input id="eraser" onclick="chooseTool(this.id)" type="image" alt="" src="assets/img/tools/eraser.png" width="25"height="50"></li>
+      </ul>
+      <p>Tools</p>
+    </div>
+    
+    <!-- Color -->
+    <div class="color-box">
+
+      <div style="float:left; padding:10px 10px 0px 10px;">
+        <ul>
+          <li><div id="#FF0000" style="background:#FF0000" onclick="pickColor(this.id)"></div></li>
+          <li><div id="#00FF00" style="background:#00FF00" onclick="pickColor(this.id)"></div></li>
+          <li><div id="#0000FF" style="background:#0000FF" onclick="pickColor(this.id)"></div></li>
+          <li><div id="#FFFF00" style="background:#FFFF00" onclick="pickColor(this.id)"></div></li>
+        </ul>
+        <ul>
+          <li><div id="#FF00FF" style="background:#FF00FF" onclick="pickColor(this.id)"></div></li>
+          <li><div id="#00FFFF" style="background:#00FFFF" onclick="pickColor(this.id)"></div></li>
+          <li><div id="#FFFFFF" style="background:#FFFFFF" onclick="pickColor(this.id)"></div></li>
+          <li><div id="#000000" style="background:#000000" onclick="pickColor(this.id)"></div></li>
+        </ul>
+      </div>
+
+      <p>Colors</p>
+    </div>
+    <!-- Setting -->
+    <div class="setting-box">
+      <ul>
+        <li><input type="range" id="rangeThickness" value="20" onchange="changeThickness(this.value)"></li>
+      </ul>
+      <hr id="rangeDemo"><span id="rangeValue">2px</span>
+      <p>Thickness</p>
+   </div>
+
+   <!-- Shape -->
+   <div class="tool-box">
+      <ul>
+        <li><input id="line" onclick="chooseShape(this.id)" type="image" alt="" src="assets/img/shapes/line.png"width ="25" height ="25"></li>
+        <li><input id="curve" onclick="chooseShape(this.id)" type="image" alt="" src="assets/img/shapes/curve.png"width ="25" height ="25"></li>
+        <li><input id="equilateral" onclick="chooseShape(this.id)" type="image" alt="" src="assets/img/shapes/equilateral.png"width ="25" height ="25"></li>
+        <li><input id="ellipse" onclick="chooseShape(this.id)" type="image" alt="" src="assets/img/shapes/ellipse.png"width ="25" height ="25"></li>
+        <li><input id="rectangle" onclick="chooseShape(this.id)" type="image" alt="" src="assets/img/shapes/rectangle.png"width ="25" height ="25"></li>
+      </ul>
+      <p>Shapes</p>
+    </div>
+
+   <div class="function-box">
+      <ul>
+          <li><input id="clearpad" onclick = "clearpad()" type="image" alt="" src="assets/img/tools/clear.png" width ="50" height ="50"></li>
+          <li><a href="#" download="download.png" onclick="this.href=canvas.toDataURL();" ><img src="assets/img/tools/download.png" width="60" height="60"></a></li>
+          
+          <input type="file" id="fileUpload" accept="image/*" style="display:none" name="upload"/>
+          <li><input   id ="fakepic" type="image"   src="assets/img/tools/upload.png"   onclick="test1()" title="Upload File"width ="50" height ="50"></li>
+          
+          
+          <li><input id="undo" onclick = "cUndo()" type="image" alt="" src="assets/img/tools/undo.png" width ="50" height ="50"></li>
+          <li><input id="redo" onclick = "cRedo()" type="image" alt="" src="assets/img/tools/redo.png" width ="50" height ="50"></li>
+          <li><input id="text" onclick = "text()" type="image" alt="" src="assets/img/tools/text.png" width ="50" height ="50"></li>
+        </ul>
+      <p>Function</p>
+   </div>
+
+ </header>
+
+ <div class="wrapper">
+  <canvas id="canvasGrid"></canvas>
+  <canvas id="canvas"></canvas>
+  <canvas id="canvasTmp"></canvas>
+</div>
+</body>
+</html>

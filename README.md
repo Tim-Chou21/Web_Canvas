@@ -2,7 +2,7 @@
 
 ## Web Canvas
 URL:https://105062338.gitlab.io/AS_01_WebCanvas/
-<img src="bg.png" width="700px" height="500px"></img>
+<img src="bg.PNG" width="700px" height="500px"></img>
 
 ## Todo
 1. **Fork the repo ,remove fork relationship and change project visibility to public.**
